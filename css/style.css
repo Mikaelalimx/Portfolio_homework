@@ -2,35 +2,9 @@ body{
     background-color:#ECE3D4;
     color:#333333;
 }
-.navbar{
-    flex-direction: row;
-}
-.mainContent{
-    padding: 100px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.projectsArea{
-    padding: 50px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.projectsArea .card{
-    margin-top: 30px;
-}
-.projectsArea .card a{
-    display: block;
-}
-.projectCard{
-    height: 128px;
-    object-fit: contain;
-    padding: 20px;
-    background-color: var(--Secondary-extra-light);
-}
-.btn{
-    background-color: #EBC077;
-    padding: 10px 10px;
-    margin: 20px;
+footer{
+    margin-top: 100px;
+    padding: 30px;
+    text-align:center;
+    background-color: #ECE3D4;
 }

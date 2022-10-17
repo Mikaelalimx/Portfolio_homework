@@ -1,110 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <nav class="navbar navbar-expand-md">
-    <div class="container">
-      <a class="navbar-brand" href="#">Mikaela (Mengxi) Li</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mikaela Li</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Case Studies
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Case Study 1</a></li>
-              <li><a class="dropdown-item" href="#">Case Study 2</a></li>
-              <li><a class="dropdown-item" href="#">Case Study 3</a></li>
-              <li><a class="dropdown-item" href="#">Case Study 4</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Fashion</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-      <div class="container">
-        <div class="row mainContent">
-            <div class="col-8 col-lg-3 text-center">
-                <img class="profileImage" src="./img/profile.png" alt="">
-            </div>
-            <div class="col-md-8 col-lg-7 col-xl-6">
-                <h1>Intro</h1>
-                <h3>Hi there, I am Mikaela Li!</h3>
-                <p>
-                    I am a curious UX/UI designer who has a strong focus on [design research] and [accessibility] 
-                    I enjoy crafting strategic solutions to solve user problems that need holistic thinking and.. . 
-                    My skills include (Tools, Approaches, and Roles Performed.)
-                </p>
-            </div>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">OURPLACE</a></li>
+                <li><a class="dropdown-item" href="#">Northwell Health</a></li>
+                <li><a class="dropdown-item" href="#">(Something else here)</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+          </ul>
         </div>
       </div>
-
-      <div class="container">
-        <div class="row projectsArea">
-            <h1 class="text-center">Case Studies</h1>
-            <div class="col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="./img/project1.png" class="card-img-top projectCard" alt="project 1">
-                    <div class="card-body">
-                        <h5 class="card-title">tax.utah.gov</h5>
-                        <p class="card-text">This government site was inconsistent in its information organization, and the layout design lacked style sheets and was not responsive.</p>
-                        <a href="#" class="btn btn-primary">View Case Study</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="./img/project2.png" class="card-img-top projectCard" alt="project 2">
-                    <div class="card-body">
-                        <h5 class="card-title">OURPLACE Mobile App</h5>
-                        <p class="card-text">“OURPLACE”  is a safe and easy to use mobile application designed to help users find their ideal roommate(s) based on their needs and unique preferences.</p>
-                        <a href="#" class="btn btn-primary">View Case Study</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="./img/project3.png" class="card-img-top projectCard" alt="project 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Case Study 3</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Case Study</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="./img/project4.png" class="card-img-top projectCard" alt="project 4">
-                    <div class="card-body">
-                        <h5 class="card-title">Case Study 4</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">View Case Study</a>
-                    </div>
-                </div>
-            </div>
+    </nav>
+    <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-8 col-lg-3 text-center">
+              <img class="profileImage" src="./img/profileImage" alt="">
+          </div>
+          <div class="col-md-8 col-lg-7 col-xl-6">
+               <h3>Hi there, I am Mikaela (Mengxi) Li!</h3>
+               <p>
+                I am a curious user experience designer who has a strong focus on design research. I enjoy crafting strategic solutions through engaging experiences to solve user problems and make their life more delightful.
+               </p>
+          </div>
         </div>
       </div>
-</body>
-</html>
+<div class="container">
+  <div class="row justify-content-center">
+    <h2 class="text-center">Case Studies</h2>
+       <div class="col-md-6 col-lg-3"></div>
+       <div class="col-md-6 col-lg-3"></div>
+       <div class="col-md-6 col-lg-3"></div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="./img/project1.png" class="card-img-top projectCard" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">OURPLACE</h5>
+    <p class="card-text">“OURPLACE”  is a safe and easy-to-use mobile application designed to help users find their ideal roommate(s) based on their needs and unique preferences.</p>
+    <a href="#" class="btn btn-primary">View Case Study</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="./img/project2.png" class="card-img-top projectCard" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">View Case Study</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="./img/project3.png" class="card-img-top projectCard" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">View Case Study</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="./img/project4.png" class="card-img-top projectCard" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">View Case Study</a>
+  </div>
+</div>
+
+<footer>
+  <h5>Mikaela</h5>
+  <p class="body-small">
+    MikaelaUXdesigner
+</p>
+<p class="body-small">
+  © Copyright Mikaela All Rights Reserved
+  <br>
+  Deigned by Mikaela (Mengxi) Li
+</p>
+</footer>
