@@ -8,3 +8,6 @@ footer{
     text-align:center;
     background-color: #ECE3D4;
 }
+.carousel-item{
+    height: 36rem;
+}
